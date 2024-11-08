@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.linear_model import LinearRegression
 
 # Load the Excel data
-data = pd.read_excel('https://github.com/Praveen427547/Rainfall_prediction/blob/main/love.xlsx')
+data = pd.read_excel('https://github.com/Praveen427547/Rainfall_prediction/blob/main/love.xlsx', engine='openpyxl')
 
 # Convert Date column to datetime format and create year and month features
 data['Date'] = pd.to_datetime(data['Date'])
