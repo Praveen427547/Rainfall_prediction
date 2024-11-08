@@ -45,7 +45,7 @@ state_pairs = {
 }
 
 # Streamlit App
-st.title("Rainfall Prediction Tool")
+st.title("Praveen's Rainfall Prediction Tool")
 
 # Select target state
 target_state = st.selectbox("Select the target state you want to predict rainfall for:", options=list(state_pairs.keys()))
